@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ice Hockey</string>
+    <string name="team_a">Slovakia</string>
+    <string name="team_b">Sweden</string>
+    <string name="reset">Reset</string>
+    <string name="goal">Goal</string>
+    <string name="penalty">Penalty</string>
+    <string name="winnig_streak">Winnig Streak</string>
+    <string name="plus">+</string>
+    <string name="shot_on_goal">Shot on goal</string>
+    <string name="minor_2_min">minor 2 min</string>
+    <string name="minor_4_min">minor_4_min</string>
+    <string name="major_5_min">major_5_min</string>
+
+
+    <string-array name="penalty">
+        <item>Minor 2 min</item>
+        <item> Minor 2+2 min</item>
+        <item> Major 5 min</item>
+
+    </string-array>
+</resources>

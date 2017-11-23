@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#99ccff</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#99ccff</item>
+    </style>
+
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
+
