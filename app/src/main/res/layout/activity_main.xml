@@ -15,30 +15,30 @@
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/logo"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="@dimen/dim26"
         android:scaleType="fitCenter"
         android:src="@drawable/mascot2018" />
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="@dimen/dim150"
+        android:layout_height="@dimen/dim150"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_margin="4dp"
+        android:layout_margin="@dimen/dim4"
         android:scaleType="fitStart"
         android:src="@drawable/logo" />
 
 
     <ImageButton
         android:id="@+id/start"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="@dimen/dim80"
+        android:layout_height="@dimen/dim80"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginBottom="@dimen/dim26"
+        android:layout_marginRight="@dimen/dim40"
         android:background="?android:attr/selectableItemBackground"
         android:onClick="start"
         android:scaleType="fitCenter"

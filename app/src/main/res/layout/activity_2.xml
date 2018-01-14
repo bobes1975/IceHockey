@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/ice"
     android:orientation="vertical"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:padding="@dimen/dim16"
     tools:context="com.example.android.icehockey.MainActivity">
 
 
@@ -17,8 +17,8 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/dim16"
+            android:layout_marginRight="@dimen/dim16"
             android:layout_weight="1"
             android:orientation="vertical"
             tools:context=".MainActivity">
@@ -30,14 +30,14 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:fontFamily="sans-serif-medium"
-                android:padding="4dp"
+                android:padding="@dimen/dim4"
                 android:text="@string/team_a"
-                android:textColor="#000"
-                android:textSize="20sp" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text20" />
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:src="@drawable/slovakia_640" />
@@ -48,10 +48,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamA"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
+                android:padding="@dimen/dim4"
                 android:text="0"
-                android:textColor="#000000"
-                android:textSize="40sp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text40"
                 android:textStyle="bold" />
 
             <Button
@@ -72,8 +72,8 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginLeft="@dimen/dim16"
+            android:layout_marginRight="@dimen/dim16"
             android:layout_weight="1"
             android:orientation="vertical"
             tools:context=".MainActivity">
@@ -85,14 +85,14 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:fontFamily="sans-serif-medium"
-                android:padding="4dp"
+                android:padding="@dimen/dim4"
                 android:text="@string/team_b"
-                android:textColor="#000"
-                android:textSize="20sp" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text20" />
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:src="@drawable/sweden_640" />
@@ -103,10 +103,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/teamB"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
+                android:padding="@dimen/dim4"
                 android:text="0"
-                android:textColor="#000000"
-                android:textSize="40sp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text40"
                 android:textStyle="bold" />
 
             <Button
@@ -136,8 +136,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp">
+        android:layout_marginLeft="@dimen/dim16"
+        android:layout_marginRight="@dimen/dim16">
 
         <TextView
             android:id="@+id/shotOnGoalTeamA"
@@ -146,8 +146,8 @@
             android:layout_weight="1"
             android:gravity="start"
             android:text="0"
-            android:textColor="#000"
-            android:textSize="20dp" />
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text20" />
 
         <Button
             android:id="@+id/shotOnGoalTeamAPlus"
@@ -156,7 +156,7 @@
             android:layout_weight="1"
             android:onClick="ShotOnGoalA"
             android:text="@string/plus"
-            android:textSize="22sp" />
+            android:textSize="@dimen/text22" />
 
         <TextView
             android:layout_width="0dp"
@@ -165,7 +165,7 @@
             android:layout_weight="5"
             android:text="@string/shot_on_goal"
             android:textAlignment="center"
-            android:textColor="#000"
+            android:textColor="@android:color/black"
             android:textSize="20sp" />
 
         <Button
@@ -175,7 +175,7 @@
             android:layout_weight="1"
             android:onClick="ShotOnGoalB"
             android:text="@string/plus"
-            android:textSize="22sp" />
+            android:textSize="@dimen/text22" />
 
         <TextView
             android:id="@+id/shotOnGoalTeamB"
@@ -185,16 +185,16 @@
             android:gravity="end"
             android:onClick="ShotOnGoalB"
             android:text="0"
-            android:textColor="#000"
-            android:textSize="20sp" />
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text22" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp">
+        android:layout_marginLeft="@dimen/dim16"
+        android:layout_marginRight="@dimen/dim16">
 
         <TextView
             android:id="@+id/winnigStreakTeamA"
@@ -203,8 +203,8 @@
             android:layout_weight="1"
             android:gravity="start"
             android:text="0"
-            android:textColor="#000"
-            android:textSize="20sp" />
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text20" />
 
         <Button
             android:id="@+id/winnigStreakTeamAPlus"
@@ -213,7 +213,7 @@
             android:layout_weight="1"
             android:onClick="StreakTeamA"
             android:text="@string/plus"
-            android:textSize="22sp" />
+            android:textSize="@dimen/text22" />
 
         <TextView
             android:layout_width="0dp"
@@ -222,8 +222,8 @@
             android:layout_weight="5"
             android:text="@string/winnig_streak"
             android:textAlignment="center"
-            android:textColor="#000"
-            android:textSize="20sp" />
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text20" />
 
         <Button
             android:id="@+id/winnigStreakTeamBplus"
@@ -241,8 +241,8 @@
             android:layout_weight="1"
             android:gravity="end"
             android:text="0"
-            android:textColor="#000"
-            android:textSize="20sp" />
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text20" />
 
     </LinearLayout>
 
@@ -253,7 +253,7 @@
         android:layout_gravity="center"
         android:background="@android:drawable/ic_notification_overlay"
         android:text="@string/penalty"
-        android:textSize="18sp"
+        android:textSize="@dimen/text18"
         android:textStyle="bold" />
 
 
@@ -262,8 +262,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginLeft="@dimen/dim16"
+            android:layout_marginRight="@dimen/dim16">
 
             <TextView
                 android:id="@+id/penaltyTeamA"
@@ -272,8 +272,8 @@
                 android:layout_weight="1"
                 android:gravity="start"
                 android:text="0"
-                android:textColor="#000"
-                android:textSize="20sp" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text20" />
 
             <Button
                 android:id="@+id/penaltyTeamAPlus"
@@ -282,11 +282,11 @@
                 android:layout_weight="1"
                 android:onClick="penaltyAplus"
                 android:text="@string/plus"
-                android:textSize="22sp" />
+                android:textSize="@dimen/text22" />
 
             <Spinner
                 android:id="@+id/penalty"
-                android:layout_width="190dp"
+                android:layout_width="@dimen/dim190"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill_horizontal|center"
                 android:animateLayoutChanges="false"
@@ -301,7 +301,7 @@
                 android:layout_weight="1"
                 android:onClick="penaltyBplus"
                 android:text="@string/plus"
-                android:textSize="22sp" />
+                android:textSize="@dimen/text22" />
 
             <TextView
                 android:id="@+id/penaltyTeamB"
@@ -310,17 +310,17 @@
                 android:layout_weight="1"
                 android:gravity="end"
                 android:text="0"
-                android:textColor="#000"
-                android:textSize="20sp" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text20" />
 
         </LinearLayout>
 
         <Button
             android:id="@+id/reset"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/dim50"
             android:background="@android:drawable/ic_notification_overlay"
             android:onClick="reset"
             android:text="@string/reset"
